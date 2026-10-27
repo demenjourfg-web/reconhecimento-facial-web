@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Reconhecimento Facial</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Meu Reconhecimento Facial</h1>
+
+<p>Projeto de detecção facial</p>
+
+<div id="areaCamera">
+    <video id="camera" autoplay playsinline muted></video>
+    <canvas id="camada"></canvas>
+</div>
+
+<p id="status">Clique no botão para iniciar a câmera.</p>
+
+<button id="iniciarCamera">Iniciar câmera</button>
+
+<script defer src="https://cdn.jsdelivr.net/npm/face-api.js@0.22.2/dist/face-api.min.js"></script>
+<script defer src="script.js"></script>
+</body>
+</html>
